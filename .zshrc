@@ -1,7 +1,7 @@
 
 # Stuff for the cd command
 setopt AUTO_CD
-cdpath=(/mnt/c/Users/Noah/Desktop/School/CS /mnt/c/Users) 
+cdpath=(/mnt/c/Users/Noah/Desktop/Projects /mnt/c/Users/Noah/Desktop/School/CS /mnt/c/Users) 
 PATH="/home/Noah/.cabal/bin:/opt/ghc/bin:$PATH"
 
 # If you come from bash you might have to change your $PATH.
