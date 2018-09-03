@@ -1,0 +1,4 @@
+bashrc,~/.bashrc
+tmux.conf,~/.tmux.conf
+vimrc,~/.vimrc
+ghci.conf,~/.ghc/ghci.conf

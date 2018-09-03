@@ -1,0 +1,6 @@
+bashrc,~/.bashrc
+zshrc,~/.zshrc
+tmux.conf,~/.tmux.conf
+ghci.conf,~/.ghc/ghci.conf
+vimrc,~/.vimrc
+alii.zsh,~/.oh-my-zsh/custom/alii.zsh
