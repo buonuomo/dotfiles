@@ -24,7 +24,7 @@ then
         echo Installing zsh...
         sudo apt-get install zsh
     fi
-    mkLinks zsh.txt
+    mkLinks zsh.csv
 else
-    mkLinks bash.txt
+    mkLinks bash.csv
 fi
