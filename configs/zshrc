@@ -3,6 +3,9 @@ setopt AUTO_CD
 cdpath=(/mnt/c/Users/Noah/Desktop/Projects /mnt/c/Users/Noah/Desktop/School/CS /mnt/c/Users) 
 PATH="/home/Noah/.local/bin:/home/Noah/.cabal/bin:/opt/ghc/bin:$PATH"
 
+# This is for expansion in other commands
+export Noah='/mnt/c/Users/Noah'
+
 # Set default permissions
 umask 0007
 

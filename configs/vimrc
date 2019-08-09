@@ -11,6 +11,11 @@ syntax on
 filetype on
 filetype plugin indent on
 
+"Colorscheme
+"let g:nord_underline = 1
+"let g:nord_cursor_line_number_background = 1
+colorscheme default
+
 "Custom key mappings
 inoremap jk <ESC>
 
@@ -52,9 +57,19 @@ set t_Co=256
 
 set cmdheight=1
 
+"Config for c++
+let g:syntastic_cpp_compiler_options = "-std=c++11 -Wall -Wextra -Wpedantic"
+
 "Config for idris
 let g:syntastic_idris_checkers=['idris']
 au FileType idris setl tw=0
+
+"Stuff for Elm
+let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_auto_loc_list = 0
+let g:elm_syntastic_show_warnings = 1
+let g:elm_format_autosave = 0
+let g:syntastic_elm_checkers = [ 'elm_make' ]
 
 "Stuff for Haskell syntax highlighting
 let g:haskell_classic_highlighting = 1
@@ -80,5 +95,5 @@ let g:airline#extensions#syntastic#enabled = 1
 "let g:airline_symbols.space = "\ua0"
 
 let g:airline_powerline_fonts = 1
-let g:airline_theme = "solarized"
-let g:airline_solarized_bg = "dark"
+let g:airline_theme = "nord"
+"let g:airline_solarized_bg = 'dark'
