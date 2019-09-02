@@ -14,7 +14,9 @@ filetype plugin indent on
 "Colorscheme
 "let g:nord_underline = 1
 "let g:nord_cursor_line_number_background = 1
-colorscheme default
+" for some reason, the colorscheme that i'm used to is the default for light
+" background, but hey, it looks good in my terminal
+colorscheme peachpuff
 
 "Custom key mappings
 inoremap jk <ESC>
@@ -30,7 +32,7 @@ set expandtab
 
 "Highlight current line
 set cursorline
-hi CursorLine   cterm=NONE ctermbg=DarkGrey ctermfg=NONE
+hi CursorLine   cterm=NONE ctermbg=243 ctermfg=NONE
 
 set nocompatible
 set number
